@@ -3,8 +3,8 @@
 
 Scheduling for periodic execution<br>
 JPA Derived Query Methods for statistics<br>
-Same repository object used to create different (kline interval) collections of same parity<br>
-On first execution or if there is no db or collection, there would be a little more wait for fetch procces from earliest kline and complete db.<br>
+Same repository object used to create different (kline interval) collections of different parities<br>
+On first execution or if there is no DB or collection, there would be a little more wait for fetch process from earliest kline and complete DB.<br>
 Even if you interrupt this process in half, it will continue from where it left off in the next run.<br>
 
 ![ConsoleCapture](https://user-images.githubusercontent.com/106110139/184238374-e73358e4-5c5c-46c0-ac1a-69f2dee4bd67.PNG)
