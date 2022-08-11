@@ -1,11 +1,11 @@
 # scheduled-incremental-kline-fetcher
 ## A Java Spring Boot application which periodically updates database and serves statistics of this data
 
-Scheduling for periodic execution
-JPA Derived Query Methods for statistics
-Same repository object used to create different (kline interval) collections of same parity
-On first execution or if there is no db or collection, there would be a little more wait for fetch procces from earliest kline and complete db.
-Even if you interrupt this process in half, it will continue from where it left off in the next run.
+Scheduling for periodic execution<br>
+JPA Derived Query Methods for statistics<br>
+Same repository object used to create different (kline interval) collections of same parity<br>
+On first execution or if there is no db or collection, there would be a little more wait for fetch procces from earliest kline and complete db.<br>
+Even if you interrupt this process in half, it will continue from where it left off in the next run.<br>
 
 ![ConsoleCapture](https://user-images.githubusercontent.com/106110139/184238374-e73358e4-5c5c-46c0-ac1a-69f2dee4bd67.PNG)
 ![RestWebAPIBrowserCapture](https://user-images.githubusercontent.com/106110139/184238384-d1ef6f12-3545-41c2-8b90-353ce8728964.PNG)
