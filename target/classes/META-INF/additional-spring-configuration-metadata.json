@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "binance.api-root",
+    "type": "java.lang.String",
+    "description": "Binance API URL root"
+  },
+  {
+    "name": "binance.klines",
+    "type": "java.lang.String",
+    "description": "Binance API URL klines extension"
+  },
+  {
+    "name": "parity.symbol",
+    "type": "java.lang.String",
+    "description": "Exchange parity code whose klines to fetch"
+  },
+  {
+    "name": "parity.interval",
+    "type": "java.lang.String",
+    "description": "Interval value of klines to fetch"
+  },
+  {
+    "name": "cron.expression",
+    "type": "java.lang.String",
+    "description": "Cron expression for schedule"
+  }
+]}
